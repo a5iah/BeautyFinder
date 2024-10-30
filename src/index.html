@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Beauty Finder Home Page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--navigation menu box-->
+    <div class="navmenu">
+        <!--logo box-->
+        <div class="logo">
+            <a href="index.html"><img src= images/BeautyFinderLogo.png ></a>
+        </div>
+        <!--navigation menu list-->
+        <nav>
+            <ul>
+                <li> <a href= "MUProduct.html">Products</a></li>
+                <li> <a href= "wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Hero section -->
+    <div class="hero">
+      <!-- Slideshow Images -->
+      <div class="mySlides fade">
+        <img src="images/BFslideshow1.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/BFslideshow2.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/BFslideshow3.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/BFslideshow4.jpg">
+      </div>
+
+      <div class="mySlides ">
+        <img src="images/BFslideshow5.jpg">
+      </div>
+
+      <!-- Navigation buttons -->
+      <a class="prev" onclick="plusSlides(-1)"><img src="images/leftarrow.png"></a>
+      <a class="next" onclick="plusSlides(1)"><img src="images/rightarrow.png"></a>
+
+      <!-- Tagline and button -->
+      <p class="tagline">Discover Beauty<br> Define Yourself<br></p>
+      <a class="startButton" href="MUProduct.html">Dive into Beauty</a>
+    </div>
+    <!--autoscroll text-->
+    <div class="autoscrollText"><marquee direction="left" scrollamount="20"><p>DISCOVER BEAUTY, DEFINE YOURSELF</p></marquee></div>
+    <!--Big container-->
+    <div class="container">
+      <!--welcome to website & website description box-->
+      <div class="welcomeSection">
+        <h1>Welcome to Beauty Finder!</h1>
+        <p>Discover the perfect makeup products tailored to you. Whether you're searching for specific brands, 
+          product types, or just browsing, Beauty Finder helps you find makeup that enhances your unique style. 
+          Start exploring and let us guide you to your next beauty essential!</p>
+        <div class="models">
+          <div class="model">
+            <img src="images/model1.jpg">
+            <div class="overlay">
+              <div class="textOverlay">Bright</div>
+            </div>
+          </div>
+          <div class="model">
+            <img src="images/model2.jpg">
+            <div class="overlay">
+              <div class="textOverlay">Deep</div>
+            </div>
+          </div>
+          <div class="model">
+            <img src="images/model3.jpg">
+            <div class="overlay">
+              <div class="textOverlay">Muted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="selections">
+        <h2>What you are going to do today?</h2>
+        <div class="button">
+            <img src="images/MUproduct.png" alt="Makeup Products">
+            <a href="MUProduct.html">Browse Makeup Products</a>
+        </div>
+        <div class="button">
+            <img src="images/heart.png" alt="Your Wishlist">
+            <a href="wishlist.html">Check Your Wishlist</a>
+        </div>
+      </div>      
+      <!--AboutUs section-->
+      <div class="aboutusSection">
+        <div class="aboutUsText">
+          <h2>About Us</h2>
+          <p>At Beauty Finder, we are dedicated to revolutionizing your makeup shopping experience. 
+            Our passion lies in connecting you with an extensive array of high-quality makeup products that perfectly align with your unique style 
+            and preferences. We understand that beauty is personal, and everyone has their own definition of what makes them feel confident and beautiful. 
+            That's why our platform curates a diverse selection of trusted beauty brands and products, all in one convenient location.<br><br>
+            With Beauty Finder, you can easily explore a wide range of cosmetics, from foundation and lipstick to eyeshadow and skincare essentials. 
+            Our user-friendly interface allows you to compare products effortlessly, and discover new favorites that suit your needs. 
+            We believe that finding the right makeup should be a joyful journey rather than a chore. Our commitment to quality and variety ensures 
+            that you have access to the latest trends and timeless classics, empowering you to express your individuality.<br><br>
+            At the heart of Beauty Finder is our mission to simplify your beauty journey. We aim to provide you with the tools and resources 
+            you need to make informed decisions about the products you choose. Whether you're a makeup novice or a seasoned beauty enthusiast, 
+            our platform is designed to inspire and guide you in your quest for the perfect look. Join us at Beauty Finder, and let us help you 
+            discover the beauty products you'll love, all while celebrating the unique beauty that is you!</p>
+            <br>
+        </div>
+        <div class="aboutUsImg">
+          <img src= images/aboutUs.jpg >
+          <img src= images/aboutUs2.jpg >
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <ul class="footerList">
+        <li>
+          <ul class="socmed">
+            <li><a href="https://www.instagram.com/"><img src= images/instagram.png ></a></li>
+            <li><a href="https://twitter.com/?lang=en"><img src= images/X.png > </a></li>
+            <li><a href="https://www.facebook.com/"><img src= images/facebook.png > </a></li>
+          </ul>
+      </li>
+      <li><p>Contact Us<br>Phone: +60 12-3456-7890</p></li>
+      <li><p id="copyright">&copy; 2024 Beauty Finder. All rights reserved.</p></li>
+      </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

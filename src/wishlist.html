@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="wishlist.css" />
+  </head>
+  <body>
+    <!--navigation menu box-->
+    <div class="navmenu">
+      <!--logo box-->
+      <div class="logo">
+        <a href="index.html"><img src= images/BeautyFinderLogo.png ></a>
+      </div>
+      <!--navigation menu list-->
+      <nav>
+        <ul>
+          <li> <a href= "MUProduct.html">Products</a></li>
+          <li> <a href= "wishlist.html">Wishlist</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--main big container-->
+    <div class="container">
+      <h1>Your Wishlist 💖</h1>
+      <div class="containerWrapper">
+        <!--products container-->
+        <div id="wishlistContainer"></div>
+        <!--each popup product box-->
+        <div id="popUpBox">
+          <!--popup content-->
+          <div class="popUpContent">
+            <span class="close" onclick="closePopUp()">&times;</span>
+            <div class="imgBox">
+              <img id="popUpImg">
+            </div>
+            <div class="textBox">
+              <h2 id="popUpName"></h2>
+              <p id="popUpRating"></p>
+              <h3 id="popUpPrice"></h3>
+              <hr>
+              <p id="popUpProductType"></p>
+              <p id="popUpBrand"></p>
+              <button id="popUpProductLink">Go To Product Link</button>
+              <button id="popUpWebLink">Go To Website Link</button>
+              <p id="popUpDesc"></p>
+              <p id="popUpColor"></p>
+              <p id="popUpTag"></p>
+              <p id="popUpNote"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--footer-->
+      <div class="footer">
+        <ul class="footerList">
+          <li>
+            <ul class="socmed">
+              <li><a href="https://www.instagram.com/"><img src= images/instagram.png ></a></li>
+              <li><a href="https://twitter.com/?lang=en"><img src= images/X.png > </a></li>
+              <li><a href="https://www.facebook.com/"><img src= images/facebook.png > </a></li>
+            </ul>
+        </li>
+        <li><p>Contact Us<br>Phone: +60 12-3456-7890</p></li>
+        <li><p id="copyright">&copy; 2024 Beauty Finder. All rights reserved.</p></li>
+        </ul>
+      </div>
+    </div>
+    <script src="wishlist.js"></script>
+ </body>
+</html>

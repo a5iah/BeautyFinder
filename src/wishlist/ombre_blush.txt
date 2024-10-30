@@ -1,0 +1,12 @@
+Product Name: Ombre Blush
+        Product Image: https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw87fb4a6b/ProductImages/2016/Face/Ombre_Blush/ombreblush_main.jpg?sw=390&sh=390&sm=fit
+        Rating: 0
+        Price: 10.0
+        Brand: nyx
+        Product Type: blush
+        Product Link: https://www.nyxcosmetics.com/ombre-blush/NYX_318.html?cgid=blush
+        Website Link: https://www.nyxcosmetics.com
+        Description: Treat your cheeks to a radiant flush of color with our Ombré Blush, a new gradient blush inspired by the ombré trend. This must-have formula features two silky colors blended into one perfectly coordinated shade combo. (It’s like they were meant for each other.)
+        Available Colors: 8
+        Tags: N/A
+        Note: buy for annual dinner

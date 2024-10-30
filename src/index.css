@@ -1,0 +1,375 @@
+/*** General body styling **/
+body 
+{
+  background-color: #fff6fa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/***nav menu box style setting***/
+.navmenu
+{
+    display: flex;
+    background-color: #EB455F;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+/***logo style setting***/
+.logo img
+{
+    display: inline;
+    height: 70px;
+    width: auto;
+}
+/***nav menu list style setting***/
+.navmenu ul li
+{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+}
+/***hyperlink button (in nav menu) style setting***/
+.navmenu ul li a
+{
+    font-weight: 350;
+    text-decoration: none;
+    padding: 20px 15px;
+    color: #fff6fa;
+    border-radius: 5px;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+/***hyperlink button (in nav menu) when hover style setting***/
+.navmenu ul li a:hover
+{
+    transform: scale(1.2);
+    background-color: #fff6fa;
+    color: #EB455F;
+}
+* {box-sizing:border-box}
+/** Hero Section **/
+.hero 
+{
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 700px;
+  overflow: hidden;
+}
+.hero .mySlides
+{
+  display: none;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.hero .mySlides img
+{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+/** previous and next buttons **/
+.prev, .next
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  color: #fff6fa;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #EB455F;
+}
+.prev img, .next img 
+{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.prev 
+{
+  left: 20px;
+}
+.next 
+{
+  right: 20px;
+}
+.prev:hover, .next:hover 
+{
+  background-color: #d13e54;
+}
+/** Tagline Style **/
+.tagline 
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: #EB455F;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+/** Call-to-Action Button **/
+.startButton 
+{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #f25c73 , #FFCCCC);
+  color: #fff6fa;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+}
+.startButton:hover 
+{
+  background-image: linear-gradient(to right, #FFCCCC , #f25c73);
+  color: #EB455F;
+  border: 1px solid #EB455F;
+}
+/** Fading Animation **/
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade
+{
+  from { opacity: 0.4 } 
+  to { opacity: 1 }
+}
+/**autoscroll text styling**/
+.autoscrollText
+{
+  margin-top: -10;
+  background-color: #EB455F;
+}
+.autoscrollText p
+{
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFFFDD;
+}
+.container
+{
+  flex: 1;
+}
+/** Welcome section styling ***/
+.welcomeSection 
+{
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff6fa;
+  color: #EB455F;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.welcomeSection h1 
+{
+  font-weight: 400;
+  margin-top: 50px;
+}
+.welcomeSection p 
+{
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: #EB455F;
+}
+.models 
+{
+  display: flex; 
+  justify-content: space-around; 
+  margin: 30px; 
+}
+.model 
+{
+  position: relative; 
+}
+.models img 
+{
+  display: block; 
+  max-width: 300px;
+  max-height: 500px; 
+}
+.overlay 
+{
+  position: absolute;
+  bottom: 100%; 
+  left: 0;
+  right: 0;
+  background-color: rgba(235, 80, 93, 0.8); /* Semi-transparent background */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; 
+}
+.model:hover .overlay 
+{
+  bottom: 0; 
+  height: 100%; 
+}
+.textOverlay 
+{
+  white-space: nowrap; 
+  color: #fff6fa;
+  font-size: 20px;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+.selections 
+{
+  background-color: #EB455F;
+  margin-top: 0; 
+  min-height: 800px;
+  text-align: center;
+  padding: 20px;
+}
+.selections h2 
+{
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  color: #fff6fa;
+}
+.button 
+{
+  display: inline-block; 
+  position: relative;
+  min-width: 400px;
+  margin: 30px 100px; 
+  padding: 15px; 
+  border-radius: 5px; 
+  background: linear-gradient(135deg, #f25c73, #FFCCCC); 
+  transition: transform 0.3s, background 0.3s;
+}
+.button img 
+{
+  display: block; 
+  max-width: 100px; 
+  margin: 0 auto 10px; 
+}
+.button:hover 
+{
+  transform: scale(1.1); 
+  border: 2px solid #000;
+  background: linear-gradient(to right, #FFCCCC, #f25c73); 
+}
+.button a 
+{
+  display: block; 
+  padding: 15px; 
+  color: #fff6fa; 
+  font-size: 20px;
+  font-weight: 400; 
+  text-decoration: none; 
+  text-align: center; 
+  border-radius: 5px;
+  transition: color 0.3s; 
+}
+.button:hover a 
+{
+  color: #000;
+}
+/** About Us section styling **/
+.aboutusSection 
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 150px; 
+  background-color: #fff6fa;
+}
+.aboutusSection .aboutUsText 
+{
+  flex: 1; 
+  color: #EB455F;
+  font-size: 20px;
+  font-weight: 350;
+  padding-right: 50px; 
+}
+.aboutusSection .aboutUsImg 
+{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+}
+.aboutusSection .aboutUsImg img 
+{
+  max-width: 300px;
+  max-height: 300px; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
+}
+/*** Footer styling ***/
+.footer 
+{
+  background-color: #EB455F;
+  padding: 20px 2px;
+  color: #fff6fa;
+  text-align: center;
+}
+.footer .footerList 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.footer .footerList li 
+{
+  font-weight: 350;
+}
+.footer .footerList .socmed 
+{
+  display: flex;
+  gap: 10px;
+}
+.footer .socmed li 
+{
+  display: inline;
+}
+.footer .socmed li a img 
+{
+  height: 20px;
+  width: auto;
+  filter: invert(100%);
+  transition: transform 0.2s;
+}
+.footer .socmed li a img:hover 
+{
+  transform: scale(1.2);
+}
+.footer p 
+{
+  margin: 5px 0;
+}

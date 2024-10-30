@@ -1,0 +1,14 @@
+
+        Product Name: Acne Solutions&trade; Liquid Makeup
+        Product Image: https://www.clinique.com/media/export/cms/products/181x209/clq_6WPR_181x209.png
+        Rating: 0
+        Price: 28.0
+        Brand: clinique
+        Product Type: foundation
+        Product Link: https://www.clinique.com/product/1599/9285/makeup/foundations/acne-solutions-liquid-makeup
+        Website Link: https://www.clinique.com
+        Description: Feels so fresh, looks so natural. Non-irritating, oil-free makeup helps blend away blemishes, neutralize redness. Medicated ingredients help treat existing breakouts and keep them from coming back.
+        Available Colors: 16
+        Tags: N/A
+        Note: 
+    
